@@ -1,6 +1,6 @@
 # Geoinformatik: Web mapping (24S)
 
-## Klaus Förster, Bernd Öggl, Jens Weise (Tutor)
+## Klaus Förster, Bernd Öggl, Laura Saxer (Tutorin)
 
 ### zur Lehrveranstaltung
 
