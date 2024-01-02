@@ -5,7 +5,7 @@
 ### zur Lehrveranstaltung
 
 * VU3 mit immanentem Prüfungscharakter
-* 5 ECTS-AP (entspricht 5*25 Arbeitsstunden)
+* 5 ECTS-AP (entspricht 5*25 Arbeitsstunden, bzw. 9-10 Arbeitsstunden pro Woche)
 * Pflichtmodul 5: Geographische Arbeitsmethoden
 
 ### Termine
