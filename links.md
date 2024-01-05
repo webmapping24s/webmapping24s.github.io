@@ -11,6 +11,7 @@
 - [Codecademy - Online Tutorials](https://www.codecademy.com/)
 - [MDN Web Docs - HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [SELFHTML-Wiki](https://wiki.selfhtml.org/)
+- [Leaflet in Practice: Create webmaps using the JavaScript Leaflet library (Samuel Gachuhi Ngugi)](https://bookdown.org/sammigachuhi/book-leaflet/)
 
 ## Software
 
