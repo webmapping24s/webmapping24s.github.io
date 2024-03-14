@@ -6,6 +6,9 @@
 
 ### Bilder
 
+- [Pixabay: Kostenlose Bilder und Videos](https://pixabay.com/)
+- [Wikimedia Commons: Bilder der Wikipedia](https://commons.wikimedia.org/)
+
 ## Lernen
 
 - [Codecademy - Online Tutorials](https://www.codecademy.com/)
