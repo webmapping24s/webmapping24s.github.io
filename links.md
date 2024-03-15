@@ -2,6 +2,9 @@
 
 ## Leaflet
 
+- [Leaflet Homepage](https://leafletjs.com/)
+- [Leaflet Quick Start Guide](https://leafletjs.com/examples/quick-start/)
+
 ## Webtools / helpers
 
 ### Bilder
