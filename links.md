@@ -7,6 +7,10 @@
 
 ## Webtools / helpers
 
+- [Google Fonts - freie Webfonts](https://fonts.google.com/)
+- [Font Awesome - Icons, Icons, Icons](https://fontawesome.com/)
+- [cdnjs - Content delivery at its finest](https://cdnjs.com/)
+
 ### Bilder
 
 - [Pixabay: Kostenlose Bilder und Videos](https://pixabay.com/)
