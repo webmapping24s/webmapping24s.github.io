@@ -6,3 +6,4 @@ Stichwortzettel in [Markdown-Syntax](https://docs.github.com/en/get-started/writ
 - [Session 2 - HTML Struktur & GIMP (14.3.2024)](https://webmapping.github.io/notes/session2)
 - [Session 3 - CSS Quiz & Leaflet first map (21.3.2024)](https://webmapping.github.io/notes/session3)
 - [Session 4 - Javascript und GeoJSON (11.4.2024)](https://webmapping.github.io/notes/session4)
+- [Session 4 - async/fetch/await und data.gv.at Wien (18.4.2024)](https://webmapping.github.io/notes/session5)
