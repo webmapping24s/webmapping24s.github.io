@@ -15,13 +15,13 @@
 * 21.03. CSS (Cascading Stylesheets)
 * **Osterferien**
 
-* 11.04. Javascript basics, Leaflet Docs & GeoJSON Visualisierung
-* 18.04. GeoJSON asynchron laden und visualiseren mit Filter, Marker als Overlay und Popups
-* 25.04. GeoJSON Punkte, Linien und Flächen stylen
-* 02.05. Leaflet Plugins Provider, Markercluster, Minimap, Hash, GeoLocation
-* 16.05. App: Wetterstationen mit DivIcons und thematischer Darstellung, RainViewer Plugin
-* 23.05. App: Wettervorhersagen Wind & Wetter, Leaflet Velocity
-* 06.06. App: Höhenprofile aus GPX-Dateien, GeoJSON aus Shapefiles, JSON aus CSV
+* 11.04. Javascript basics, Leaflet Docs & GeoJSON Visualisierung, Leaflet Fullscreen
+* 18.04. App Wien: GeoJSON asynchron laden und visualisieren, Marker als Overlay und Popups, Leaflet Providers
+* 25.04. App Wien: GeoJSON Punkte, Linien und Flächen stylen, Icons verwenden, Leaflet Markercluster
+* 02.05. App Wetterstationen: DivIcons und thematischer Darstellung, RainViewer Plugin
+* 16.05. App Wettervorhersagen: Wind & Wetter, Leaflet Velocity, Map Events
+* 23.05. App Höhenprofile: GPX-Dateien, DOM Manipulation
+* 06.06. t.b.a
 
 * **Projektphase**
 
