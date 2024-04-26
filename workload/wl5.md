@@ -1,6 +1,6 @@
 # Workload für die Woche vom 18. bis 25. April 2024
 
-## Popups für die thematschen Layer beim Wien Beispiel
+## Popups für die thematischen Layer beim Wien Beispiel
 
 Implementiert nach den Vorgaben der Screenshots Popups für Haltestellen, Liniennetz, Fußgängerzonen und Hotels
 
