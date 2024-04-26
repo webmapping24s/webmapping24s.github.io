@@ -9,7 +9,7 @@
   - F1 Git: Clone
   - Desktop -> neues Verzeichnis "wien" -> "Select Repository Location" -> Open in New Window
 
-- Template auspacken und Inhalt ins `wien`-Verzeichnis verschieben
+- Template <https://webmapping.github.io/templates/template-wien.zip> auspacken und Inhalt ins `wien`-Verzeichnis verschieben
 
 - alles hinzufügen und und Push zurück auf <https://github.com/webmapping/wien>
 
