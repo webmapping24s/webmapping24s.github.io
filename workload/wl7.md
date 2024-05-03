@@ -23,5 +23,5 @@ In zwei Wochen werden wir Wind- und Wetterdaten vom European Centre for Medium-R
 4. pushed alles zurück zu github.com und macht das Repo über die Settings online verfügbar
 
 
-Bis spätestens **Donnerstag, den 16. Mai 2023 um 12:00 Uhr mittags** soll alles unter https://usernmame.github.com/aws und https://usernmame.github.com/forecast erreichbar sein
+Bis spätestens **Donnerstag, den 16. Mai 2024 um 12:00 Uhr mittags** soll alles unter https://usernmame.github.com/aws und https://usernmame.github.com/forecast erreichbar sein
 
