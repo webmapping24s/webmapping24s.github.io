@@ -8,3 +8,4 @@ Stichwortzettel in [Markdown-Syntax](https://docs.github.com/en/get-started/writ
 - [Session 4 - Javascript und GeoJSON (11.4.2024)](https://webmapping.github.io/notes/session4)
 - [Session 5 - async/fetch/await und data.gv.at Wien (18.4.2024)](https://webmapping.github.io/notes/session5)
 - [Session 6 - Styling von Flächen, Linien, Punkten (25.4.2024)](https://webmapping.github.io/notes/session6)
+- [Session 7 - Wetterstationsdaten visualisieren (2.5.2024)](https://webmapping.github.io/notes/session7)
