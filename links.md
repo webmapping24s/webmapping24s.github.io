@@ -5,14 +5,25 @@
 - [Leaflet Homepage](https://leafletjs.com/)
 - [Leaflet Quick Start Guide](https://leafletjs.com/examples/quick-start/)
 
+### Leaflet plugins
+
+- [Leaflet Providers](https://github.com/leaflet-extras/leaflet-providers)
+- [Leaflet Fullscreen](https://github.com/Leaflet/Leaflet.fullscreen)
+- [Leaflet Markercluster](https://github.com/Leaflet/Leaflet.markercluster)
+- [Leaflet Rainviewer](https://github.com/mwasil/Leaflet.Rainviewer)
+- [Leaflet velocity](https://github.com/onaci/leaflet-velocity)
+- [Leaflet elevation](https://github.com/Raruto/leaflet-elevation)
+
 ## Webtools / helpers
 
 - [Google Fonts - freie Webfonts](https://fonts.google.com/)
 - [Font Awesome - Icons, Icons, Icons](https://fontawesome.com/)
 - [cdnjs - Content delivery at its finest](https://cdnjs.com/)
+- [COLORS. A nicer color palette for the web](https://clrs.cc/)
 
 ### Bilder
 
+- [Map Icons Collection - 1000+ free & customizable icons for maps](https://mapicons.mapsmarker.com/)
 - [Pixabay: Kostenlose Bilder und Videos](https://pixabay.com/)
 - [Wikimedia Commons: Bilder der Wikipedia](https://commons.wikimedia.org/)
 
