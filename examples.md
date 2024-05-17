@@ -1,5 +1,17 @@
 # Arbeitsbeispiele
 
+## met.no und ECMWF Wetter & Wind
+
+* Web: <https://webmapping.github.io/forecast/index.html>
+* Repo: <https://github.com/webmapping/forecast>
+* Template: <https://webmapping.github.io/templates/template-forecast.zip>
+* Daten:
+    * MET Norway Locationforecast: <https://api.met.no/weatherapi/locationforecast/2.0/documentation>
+    * MET Weather API icons: <https://github.com/metno/weathericons/>
+    * MET Norway Vorhersage Innsbruck: <https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=47.267222&amp;lon=11.392778>
+    * ECMWF Open Data: <https://www.ecmwf.int/en/forecasts/datasets/open-data>
+    * ECMWF Wind-Vorhersage Europa: <https://geographie.uibk.ac.at/data/ecmwf/data/wind-10u-10v-europe.json>
+
 ## Wetterstationen Euregio
 
 * Web: <https://webmapping.github.io/aws/index.html>
