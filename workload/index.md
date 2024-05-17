@@ -7,5 +7,5 @@
 * [Workload 5 (18.04. - 25.04.): Popups für die thematischen Layer beim Wien Beispiel](https://webmapping.github.io/workload/wl5)
 * [Workload 6 (25.04. - 02.05.): Wetterstationen Euregio Beispiel vorbereiten](https://webmapping.github.io/workload/wl6)
 * [Workload 7 (02.05. - 16.05.): Weiter mit dem Wetter ...](https://webmapping.github.io/workload/wl7)
-* [Workload 8 (16.05. - 23.05.): t.b.a](https://webmapping.github.io/workload/wl8)
+* [Workload 8 (16.05. - 23.05.): Bike Trail Tirol Beispiel vorbereiten](https://webmapping.github.io/workload/wl8)
 * [Workload 9 (23.05. - 06.06.): t.b.a](https://webmapping.github.io/workload/wl9)
