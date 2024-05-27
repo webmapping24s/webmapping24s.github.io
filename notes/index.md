@@ -10,3 +10,4 @@ Stichwortzettel in [Markdown-Syntax](https://docs.github.com/en/get-started/writ
 - [Session 6 - Styling von Flächen, Linien, Punkten (25.4.2024)](https://webmapping.github.io/notes/session6)
 - [Session 7 - Wetterstationsdaten visualisieren (2.5.2024)](https://webmapping.github.io/notes/session7)
 - [Session 8 - Wind & Wetter Beispiel (16.5.2024)](https://webmapping.github.io/notes/session8)
+- [Session 9 - Biketirol: GPX-Daten visualisieren (23.5.2024)](https://webmapping.github.io/notes/session9)
