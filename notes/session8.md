@@ -143,7 +143,7 @@
 
     COMMIT <https://github.com/webmapping/forecast/commit/72b7a6088858b509decfeab253b993eeae0806d1>
 
-- an dieser Stelle fällt auf, dass der Niederschlag immer `undefined` ist :-( Das liegt daran, dass er zwar in den Metadaten angeführt ist, in den Detaildaten aber fehlt. Nur bei den Wetteraussichten mit Wettersymbolen und voraussichtlichen Niederschlagsmengen `data.next_1_hours`, `data.next_6_hours`, `data.next_12_hours` wäre er zu finden, trotzdem verzichten auf eine Angabe im Popup und löschen diesen Eintrag aus der Liste. Ob es regnet oder nicht, werden wir später noch im Popzp sehen ...
+- an dieser Stelle fällt auf, dass der Niederschlag immer `undefined` ist :-( Das liegt daran, dass er zwar in den Metadaten angeführt ist, in den Detaildaten aber fehlt. Nur bei den Wetteraussichten mit Wettersymbolen und voraussichtlichen Niederschlagsmengen `data.next_1_hours`, `data.next_6_hours`, `data.next_12_hours` wäre er zu finden, trotzdem verzichten auf eine Angabe im Popup und löschen diesen Eintrag aus der Liste. Ob es regnet oder nicht, werden wir später noch im Popup sehen ...
 
     COMMIT <https://github.com/webmapping/forecast/commit/b197b71c434f92b95c198bdc8936d48cebd61838>
 
@@ -358,7 +358,6 @@ Mit Wind ist immer auch Bewegung verbunden und deshalb werden wir im nächsten S
 
     COMMIT <https://github.com/webmapping/forecast/commit/56371eaca95a1a1e2db6f7af60cfec7df2f1c632>
 
-
 ### e) Den Zeitpunkt der Vorhersage ermitteln
 
 - in jeder der beiden Wind-Komponenten der JSON-Daten finden wir (ident) die Zeit der Berechnung der Vorhersage (`refTime`) und den Zeitpunkt der Gültigkeit in Stunden (`forecastTime`) ab der Berechnung. Wir können uns aus der `refTime` wieder ein echtes Javascript-Datum erzeugen
@@ -408,7 +407,7 @@ Mit Wind ist immer auch Bewegung verbunden und deshalb werden wir im nächsten S
 
     COMMIT <https://github.com/webmapping/forecast/commit/09611a17f5c573ce9afb93f486a44fd78e8c334c>
 
-### document.querySelector() und .innerHTML ...
+### document.querySelector() und .innerHTML
 
 So unspektakulär dieser letzte Schritt aussehen mag, so spektakulär sind die Möglichkeiten, die uns `document.querySelector()`  und `.innerHTML` in Kombination bieten, denn damit können wir alles auf der HTML-Seite aus Javascript heraus beeinflussen. Mit alles ist dabei wirklich alles gemeint, denn wir könnten die beiden auch so einsetzen:
 
