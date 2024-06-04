@@ -1,5 +1,14 @@
 # Arbeitsbeispiele
 
+## Bike Trail Tirol
+
+* Web: <https://webmapping.github.io/biketirol/index.html>
+* Repo: <https://github.com/webmapping/biketirol>
+* Template: <https://webmapping.github.io/templates/template-biketirol.zip>
+* Daten:
+    * Bike Trail Tirol <https://www.tirol.at/reisefuehrer/sport/mountainbiken/bike-trail-tirol>
+    * eGrundkarte Tirol <https://www.data.gv.at/katalog/de/dataset/land-tirol_elektronischekartetirol>
+
 ## met.no und ECMWF Wetter & Wind
 
 * Web: <https://webmapping.github.io/forecast/index.html>
