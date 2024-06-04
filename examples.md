@@ -1,5 +1,13 @@
 # Arbeitsbeispiele
 
+## Tips
+
+* All-In-One Templates (HTML+CSS+JS)
+
+    * `template-austria.html`: <https://webmapping.github.io/templates/template-austria.html>
+    * `template-tirol.html`: <https://webmapping.github.io/templates/template-tirol.html>
+    * `template-europe.html`: <https://webmapping.github.io/templates/template-europe.html>
+
 ## Bike Trail Tirol
 
 * Web: <https://webmapping.github.io/biketirol/index.html>
