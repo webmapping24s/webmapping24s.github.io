@@ -13,6 +13,8 @@
 - [Leaflet Rainviewer](https://github.com/mwasil/Leaflet.Rainviewer)
 - [Leaflet velocity](https://github.com/onaci/leaflet-velocity)
 - [Leaflet elevation](https://github.com/Raruto/leaflet-elevation)
+- [Leaflet Hash](https://github.com/mlevans/leaflet-hash)
+- [Leaflet Locatecontrol](https://github.com/domoritz/leaflet-locatecontrol)
 
 ## Webtools / helpers
 

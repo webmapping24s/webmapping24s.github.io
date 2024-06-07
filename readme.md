@@ -21,7 +21,7 @@
 * 02.05. App Wetterstationen: DivIcons und thematischer Darstellung, RainViewer Plugin
 * 16.05. App Wettervorhersagen: Wind & Wetter, Leaflet Velocity, Map Events
 * 23.05. App Höhenprofile: GPX-Dateien, DOM Manipulation
-* 06.06. t.b.a
+* 06.06. QGIS GeoJSON Export, TopoJSON, Leaflet Hash, Leaflet Locatecontrol und Tips für die Projektphase
 
 * **Projektphase**
 

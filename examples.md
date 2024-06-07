@@ -8,6 +8,12 @@
     * `template-tirol.html`: <https://webmapping.github.io/templates/template-tirol.html>
     * `template-europe.html`: <https://webmapping.github.io/templates/template-europe.html>
 
+* Beispiele:
+
+    * `mountainbike.html`: <https://webmapping.github.io/tips/mountainbike.html>
+    * `landkreise.html`: <https://webmapping.github.io/tips/landkreise.html>
+    * `plugins_hash_locate.html`: <https://webmapping.github.io/tips/plugins_hash_locate.html>
+
 ## Bike Trail Tirol
 
 * Web: <https://webmapping.github.io/biketirol/index.html>
