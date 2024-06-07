@@ -11,3 +11,4 @@ Stichwortzettel in [Markdown-Syntax](https://docs.github.com/en/get-started/writ
 - [Session 7 - Wetterstationsdaten visualisieren (2.5.2024)](https://webmapping.github.io/notes/session7)
 - [Session 8 - Wind & Wetter Beispiel (16.5.2024)](https://webmapping.github.io/notes/session8)
 - [Session 9 - Biketirol: GPX-Daten visualisieren (23.5.2024)](https://webmapping.github.io/notes/session9)
+- [Session 10 - QGIS, TopoJSON, Plugins und Tips für die Projektphase (6.6.2024)](https://webmapping.github.io/notes/session10)
