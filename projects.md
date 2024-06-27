@@ -4,12 +4,12 @@ In der abschließenden Gruppenarbeit für den Web mapping Kurs sollt ihr die im 
 
 ## Teams (Reihenfolge für die Präsentationen)
 
-- 15:40 - 16:00: Heimat der Happy-Hirsche
-- 16:05 - 16:25: Freizeitspass
+- 15:40 - 16:00: Die Nationalparks Österreichs
+- 16:05 - 16:25: Freizeitspass in Innsbruck
 - 16:30 - 16:50: Firnfreuden
-- 17:10 - 17:30: Seen im Land Salzburg
+- 17:10 - 17:30: Seen und Wandern im Land Salzburg
 - 17:35 - 17:55: CoffeeMap Projekt
-- 18:00 - 18:20: Erneuerbare Energien in Europa und in Deutschland
+- 18:00 - 18:20: Erneuerbare Energien in Europa und Deutschland
 
 Davor werden wir die Technik in Gang setzen und danach noch die LV-Evaluation Online in Präsenz erledigen
 
