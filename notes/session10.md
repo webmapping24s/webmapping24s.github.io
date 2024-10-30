@@ -129,17 +129,17 @@
 
     - OK drücken und fertig
 
-    COMMIT: <https://github.com/webmapping/tips/commit/b08bed64d2eae927e7cba4b8b6967e57d35c350b>
+    COMMIT: <https://github.com/webmapping24s/tips/commit/b08bed64d2eae927e7cba4b8b6967e57d35c350b>
 
 - visualisieren
 
-    - Template <https://webmapping.github.io/templates/template-austria.html> verwenden und als `mountainbike.html` speichern
+    - Template <https://webmapping24s.github.io/templates/template-austria.html> verwenden und als `mountainbike.html` speichern
 
-        COMMIT <https://github.com/webmapping/tips/commit/1e7c402e6496ab0e17c7c681b6485f1f93fe7d90>
+        COMMIT <https://github.com/webmapping24s/tips/commit/1e7c402e6496ab0e17c7c681b6485f1f93fe7d90>
 
     - Titel und Quelle des Templates anpassen
 
-        COMMIT <https://github.com/webmapping/tips/commit/ee0204f5a14c96f704fd0d63ec0977eeba6b8044>
+        COMMIT <https://github.com/webmapping24s/tips/commit/ee0204f5a14c96f704fd0d63ec0977eeba6b8044>
     
     - `mountainbike.geojson` landen und anzeigen
 
@@ -154,7 +154,7 @@
         loadGeoJSON("mountainbike.geojson");
         ```
 
-        COMMIT <https://github.com/webmapping/tips/commit/3448cd98715cea76765ed8c8e38fc946983c647e>
+        COMMIT <https://github.com/webmapping24s/tips/commit/3448cd98715cea76765ed8c8e38fc946983c647e>
 
     - mit `.fitBounds()` <https://leafletjs.com/reference.html#map-fitbounds> und `.getBounds()` <https://leafletjs.com/reference.html#geojson-getbounds> können wir auf den Ausschnitt der GeoJSON-Daten blicken. Damit wir den Extent der Marker bekommen, müssen wir den `L.geoJSON()` Aufruf nur in einer Variablen `mtbLayer` speichern und dann dessen Ausdehnung mit `mtbLayer.getBounds()` abfragen. Gesetzt wird der Ausschnitt für die gesamte Karte, also beim Karten-Objekt mit `map.fitBounds()`.
 
@@ -170,7 +170,7 @@
         loadGeoJSON("mountainbike.geojson");
         ```
 
-        COMMIT <https://github.com/webmapping/tips/commit/fe153de7c917f7abc496dafc4f2c121303fd8838>
+        COMMIT <https://github.com/webmapping24s/tips/commit/fe153de7c917f7abc496dafc4f2c121303fd8838>
 
     - **Tipp**: mit `.fitBounds()` kann der Ausschnitt auch über die Bounding Box von `mountainbike.geojson` gesetzt werden, die wir beim Export zusätzlich mit der Option `WRITE_BBOX: YES` hinzugefügt haben. Aus dem Array mit `minXY`, `maxXY` wird ein Array mit zwei Arrays für `minLatLng` und `maxLatLng` - Achtung: die Koordinaten müssen natürlich wieder getauscht werden ...
 
@@ -181,7 +181,7 @@
             [47.53811, 10.18094],
         ]);
 
-    - die fertige Seite online: <https://webmapping.github.io/tips/mountainbike.html>
+    - die fertige Seite online: <https://webmapping24s.github.io/tips/mountainbike.html>
 
 ## 3. GeoJSON mit Python in TopoJSON konvertieren
 
@@ -229,17 +229,17 @@ Ein Beispiel:
 
         - das Resultat `landkreise.topojson` hat nur noch `~800KB`. Wenn man vor der Konvertierung in QGIS alle Attribut-Spalten bis auf `AGS` (Kreisschlüssel) und `GEN` (Kreisname) löscht, kommt man immerhin auf `~650KB`.
 
-            COMMIT <https://github.com/webmapping/tips/commit/1a330f6f8404484b1672cbfc549c2354dca36b8c>
+            COMMIT <https://github.com/webmapping24s/tips/commit/1a330f6f8404484b1672cbfc549c2354dca36b8c>
 
 ## 4. TopoJSON mit Leaflet.omnivore visualisieren
 
-- als Template verwenden wir <https://webmapping.github.io/templates/template-europe.html> und speichern es als `landkreise.html`
+- als Template verwenden wir <https://webmapping24s.github.io/templates/template-europe.html> und speichern es als `landkreise.html`
 
-    COMMIT <https://github.com/webmapping/tips/commit/6ab65c87b6513b1d6ddf6734efc2bbaad16e74ef>
+    COMMIT <https://github.com/webmapping24s/tips/commit/6ab65c87b6513b1d6ddf6734efc2bbaad16e74ef>
 
 - Titel und Quelle des Templates anpassen
 
-    COMMIT <https://github.com/webmapping/tips/commit/7e81b9c4a5b073e1f41fa2f5dcf200ad38d2ccd7>
+    COMMIT <https://github.com/webmapping24s/tips/commit/7e81b9c4a5b073e1f41fa2f5dcf200ad38d2ccd7>
 
 - das **Leaflet.omnivore Plugin** <https://github.com/mapbox/leaflet-omnivore> in `index.html` referenzieren
 
@@ -248,7 +248,7 @@ Ein Beispiel:
     <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
     ```
 
-    COMMIT <https://github.com/webmapping/tips/commit/e613639612054ab093c7aefe6c910e7e933c6fd6>
+    COMMIT <https://github.com/webmapping24s/tips/commit/e613639612054ab093c7aefe6c910e7e933c6fd6>
 
 - die TopoJSON-Daten laden und anzeigen
 
@@ -256,7 +256,7 @@ Ein Beispiel:
     omnivore.topojson("landkreise.topojson").addTo(map);
     ```
 
-    COMMIT <https://github.com/webmapping/tips/commit/00e0cc7af5d1213cce59af15dbf66dcfe22d19d9>
+    COMMIT <https://github.com/webmapping24s/tips/commit/00e0cc7af5d1213cce59af15dbf66dcfe22d19d9>
 
 - damit wir mit den Daten, die Leaflet.omnivore geladen hat gleich wie mit GeoJSON arbeiten können (also `filter`, `onEachFeature`, etc. verwenden können) müssen wir noch eine Trick anwenden: wir definieren eine sogenannte "*Callback-Funktion*" als `L.geoJSON()` Aufruf - wir nennen sie `drawLandkreise` und referenzieren sie beim Laden der Daten mit Leaflet.omnivore. Das Plugin kümmert sich dann um den Rest und wir können in der "*Callback-Funktion*" wie von GeoJSON her gewohnt arbeiten. Der folgende Code definiert dieses Callback und implementiert ein Popup mit dem Namen der Landkreise:
 
@@ -272,7 +272,7 @@ Ein Beispiel:
     omnivore.topojson("landkreise.topojson", null, drawLandkreise).addTo(map);
     ```
 
-    COMMIT <https://github.com/webmapping/tips/commit/54667b8aa3ab59fc8c6049e6493bc2fc7a1b8b6b>
+    COMMIT <https://github.com/webmapping24s/tips/commit/54667b8aa3ab59fc8c6049e6493bc2fc7a1b8b6b>
 
 - bleibt noch, auf den Ausschnitt zu blicken - wir versuchen es wieder mit `.fitBounds()`  und `.getBounds()`
 
@@ -290,19 +290,19 @@ Ein Beispiel:
     });
     ```
 
-    COMMIT <https://github.com/webmapping/tips/commit/bc1c8eb27eb77d4a3bb400b2a0942a8bf9ca9e9a>
+    COMMIT <https://github.com/webmapping24s/tips/commit/bc1c8eb27eb77d4a3bb400b2a0942a8bf9ca9e9a>
 
-- die fertige Seite online: <https://webmapping.github.io/tips/landkreise.html>
+- die fertige Seite online: <https://webmapping24s.github.io/tips/landkreise.html>
 
 ## 5. zwei Plugins zum Schluss
 
-- Template <https://webmapping.github.io/templates/template-tirol.html> verwenden und als `plugins_hash_locate.html` speichern
+- Template <https://webmapping24s.github.io/templates/template-tirol.html> verwenden und als `plugins_hash_locate.html` speichern
 
-    COMMIT <https://github.com/webmapping/tips/commit/64bc6d802b97f89f007b9260a4e88510e31ae1f9>
+    COMMIT <https://github.com/webmapping24s/tips/commit/64bc6d802b97f89f007b9260a4e88510e31ae1f9>
 
 - Titel und Quelle des Templates anpassen
 
-    COMMIT <https://github.com/webmapping/tips/commit/5f3bd7c7e421b6e8b857f8b928c7652d1ee73209>
+    COMMIT <https://github.com/webmapping24s/tips/commit/5f3bd7c7e421b6e8b857f8b928c7652d1ee73209>
 
 - **Leaflet.hash** - <https://github.com/mlevans/leaflet-hash>
 
@@ -320,7 +320,7 @@ Ein Beispiel:
         new L.Hash(map);
         ```
 
-    COMMIT <https://github.com/webmapping/tips/commit/e9ed868ff4eb055cd8a4561e7d78f99db59d0042>
+    COMMIT <https://github.com/webmapping24s/tips/commit/e9ed868ff4eb055cd8a4561e7d78f99db59d0042>
 
 - **Leaflet.locatecontrol** - <https://github.com/domoritz/leaflet-locatecontrol>
 
@@ -344,6 +344,6 @@ Ein Beispiel:
         }).addTo(map);
         ```
 
-    COMMIT <https://github.com/webmapping/tips/commit/d101d968c65e848d989fdf3c09d0b4e611f91b37>
+    COMMIT <https://github.com/webmapping24s/tips/commit/d101d968c65e848d989fdf3c09d0b4e611f91b37>
 
-- die fertige Seite online: <https://webmapping.github.io/tips/plugins_hash_locate.html>
+- die fertige Seite online: <https://webmapping24s.github.io/tips/plugins_hash_locate.html>

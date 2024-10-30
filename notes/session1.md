@@ -4,9 +4,9 @@
 
 - Account erstellen bei <https://github.com>
 
-- Repo `nz` erstellen - <https://github.com/webmapping/nz>
+- Repo `nz` erstellen - <https://github.com/webmapping24s/nz>
 
-- beim Pulldown "*&lt;> Code*" die HTTPS Adresse kopieren - <https://github.com/webmapping/nz.git>
+- beim Pulldown "*&lt;> Code*" die HTTPS Adresse kopieren - <https://github.com/webmapping24s/nz.git>
 
 - Visual Studio Code starten
 
@@ -22,7 +22,7 @@
 
         - im "*Source Control Bereich*" (drittes Icon in der linken Symbolleiste) mit dem Plus rechts von `index.html` "*Stage Changes*" und mit einer sprechenden Commit-Message "*Commit*" drücken
 
-        - COMMIT: <https://github.com/webmapping/nz/commit/c9de9780a824481e21c8b1c5eea311693a64a1f6>
+        - COMMIT: <https://github.com/webmapping24s/nz/commit/c9de9780a824481e21c8b1c5eea311693a64a1f6>
 
         - **Achtung**: wenn E-Mail/Name noch nicht bekannt sind, kommt jetzt eine Fehlermeldung
 
@@ -39,7 +39,7 @@
         <h1>Neuseelandreise</h1>
         ```
 
-        - COMMIT: <https://github.com/webmapping/nz/commit/d1840c9f38fa571f6196d21d8b82b2d21244cba5>
+        - COMMIT: <https://github.com/webmapping24s/nz/commit/d1840c9f38fa571f6196d21d8b82b2d21244cba5>
 
     - Sprache ändern
 
@@ -47,13 +47,13 @@
         <html lang="de">
         ```
 
-        - COMMIT: <https://github.com/webmapping/nz/commit/f85a08a9bb5ede86692cc511745f32418b030163>
+        - COMMIT: <https://github.com/webmapping24s/nz/commit/f85a08a9bb5ede86692cc511745f32418b030163>
 
-- Synchronisieren der Änderungen zurück nach <https://github.com/webmapping/nz>
+- Synchronisieren der Änderungen zurück nach <https://github.com/webmapping24s/nz>
 
     - im "*Source Control Bereich*" Rechts / Oben auf die drei Punkte klicken und **Push** auswählen - den Anordnungen folgen
 
-    - damit sind die Änderungen bei <https://github.com/webmapping/nz> sichtbar
+    - damit sind die Änderungen bei <https://github.com/webmapping24s/nz> sichtbar
 
 - Repo online stellen
 
@@ -63,7 +63,7 @@
 
     - unter "*Build and deployment*" bei "Branch" "*main*" wählen und "*Save*"
 
-    - damit ist nach kurzer Wartezeit das Repo unter <https://webmapping.github.io/nz> im Web erreichbar
+    - damit ist nach kurzer Wartezeit das Repo unter <https://webmapping24s.github.io/nz> im Web erreichbar
 
 - Vscode schließen und noch einmal alles herholen
 
@@ -99,7 +99,7 @@
     <p>Der Tongariro-Nationalpark  ... Vulkane als heilig verehren.</p>
     ```
 
-    COMMIT: <https://github.com/webmapping/nz/commit/31032149765b617701b2fe0aa2176d3405608992>
+    COMMIT: <https://github.com/webmapping24s/nz/commit/31032149765b617701b2fe0aa2176d3405608992>
 
 - fett / kursiv formatieren
 
@@ -115,7 +115,7 @@
     <strong><em>Weltnaturerbe der UNESCO</strong></em> (falsch)
     ```
 
-    COMMIT: <https://github.com/webmapping/nz/commit/abf843088123407ba02e350b0d8e1c60377bb0ac>
+    COMMIT: <https://github.com/webmapping24s/nz/commit/abf843088123407ba02e350b0d8e1c60377bb0ac>
 
 - Link zur Wikipedia Quelle mit &lt;a> wie *anchor* und href-Attribut wie *hyperlink reference*, der Linktext steht dazwischen
 
@@ -123,7 +123,7 @@
     <a href="https://de.wikipedia.org/wiki/Tongariro-Nationalpark">Quelle Wikipedia</a>
     ```
 
-    COMMIT: <https://github.com/webmapping/nz/commit/ff3b7fe4c224a71034fdc2092d39ace422118964>
+    COMMIT: <https://github.com/webmapping24s/nz/commit/ff3b7fe4c224a71034fdc2092d39ace422118964>
 
 ### Bild der Emerald Lakes hinzufügen
 
@@ -135,7 +135,7 @@
 
     - Zielort: `images/attraction.jpg`
 
-    COMMIT: <https://github.com/webmapping/nz/commit/a47b14081b02366c5d8e96e10bc9c2c9396d6f7f>
+    COMMIT: <https://github.com/webmapping24s/nz/commit/a47b14081b02366c5d8e96e10bc9c2c9396d6f7f>
 
 - Bild einbauen als &lt;figure> (Abbildung)
 
@@ -150,7 +150,7 @@
     </figure>
     ```
 
-    - COMMIT: <https://github.com/webmapping/nz/commit/598111c8b1ac76f936e4f8e92c146a99fdb8e021>
+    - COMMIT: <https://github.com/webmapping24s/nz/commit/598111c8b1ac76f936e4f8e92c146a99fdb8e021>
 
 ### Linkliste mit drei beliebigen Links
 
@@ -164,7 +164,7 @@
     </ul>
     ```
 
-    - COMMIT: <https://github.com/webmapping/nz/commit/ca837f0f717586678f508fb8bbc38109b8c1ac57>
+    - COMMIT: <https://github.com/webmapping24s/nz/commit/ca837f0f717586678f508fb8bbc38109b8c1ac57>
 
 ### Etappennavigation zu den Nachbar:innen
 
@@ -173,11 +173,11 @@
 ```html
 <nav>
     <a href="https://laurauniibk.github.io/nz">vorhergehende Etappe</a>
-    <a href="https://webmapping.github.io/nz">diese Etappe</a>
+    <a href="https://webmapping24s.github.io/nz">diese Etappe</a>
     <a href="https://ernstanton.github.io/nz">nächste Etappe</a>
 </nav>
 ```
 
-- COMMIT: <https://github.com/webmapping/nz/commit/912444a217569723c1700dd2276dfca66f4b5cd7>
+- COMMIT: <https://github.com/webmapping24s/nz/commit/912444a217569723c1700dd2276dfca66f4b5cd7>
 
 **das war's für heute ...**

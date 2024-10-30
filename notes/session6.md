@@ -9,7 +9,7 @@
     ${feature.properties.AUSN_TEXT || "ohne Ausnahme"}      // ersetzt leere Einträge mit "ohne Ausnahme"
     ```
 
-    COMMIT: <https://github.com/webmapping/wien/commit/e6e60d4bd1bd49ab888ba2d533ac6053e8c17a32>
+    COMMIT: <https://github.com/webmapping24s/wien/commit/e6e60d4bd1bd49ab888ba2d533ac6053e8c17a32>
 
 - das Aussehen von Flächen ist sehr einfach über eine GeoJSON `style` Option zu ändern - siehe <https://leafletjs.com/reference.html#geojson-style>
 
@@ -45,7 +45,7 @@
     })
     ```
 
-    COMMIT: <https://github.com/webmapping/wien/commit/18c54e96259661cc33255b4ab2b12ec6ddd28d22>
+    COMMIT: <https://github.com/webmapping24s/wien/commit/18c54e96259661cc33255b4ab2b12ec6ddd28d22>
 
 
 ## Linien der Buslinien
@@ -101,7 +101,7 @@
     });
     ```
 
-    COMMIT: <https://github.com/webmapping/wien/commit/cbcad01575d27d9b02f1abd31beb79f3b9ba0025>
+    COMMIT: <https://github.com/webmapping24s/wien/commit/cbcad01575d27d9b02f1abd31beb79f3b9ba0025>
 
     - es gäbe elegantere Wege zur Ermittlung der Farbwerte als die `if-Abfragen`, aber für's Erste reicht uns das ...
 
@@ -123,7 +123,7 @@ Bis jetzt haben wir für Punkte nur Marker verwendet - das soll sich jetzt ände
 
     - wir wählen das linke Icon und speichern es mit Rechtsklick im `icons/`-Verzeichnis als `photo.png`
 
-    COMMIT: <https://github.com/webmapping/wien/commit/6b8e9fa1b7144582d148e9555826910837f2c63d>
+    COMMIT: <https://github.com/webmapping24s/wien/commit/6b8e9fa1b7144582d148e9555826910837f2c63d>
 
 - Bushaltestellen:
 
@@ -141,7 +141,7 @@ Bis jetzt haben wir für Punkte nur Marker verwendet - das soll sich jetzt ände
 
     - wir wählen wieder immer das linke Icon und speichern es mit Rechtsklick im `icons/`-Verzeichnis als `bus_1.png` bis `bus_6.png`
 
-    COMMIT: <https://github.com/webmapping/wien/commit/de9ea0c5124d03478f4d4262ae60d62f506957c8>
+    COMMIT: <https://github.com/webmapping24s/wien/commit/de9ea0c5124d03478f4d4262ae60d62f506957c8>
 
 - Hotels:
 
@@ -151,7 +151,7 @@ Bis jetzt haben wir für Punkte nur Marker verwendet - das soll sich jetzt ände
 
     - der Link zu den generierten Icons ist <https://mapicons.mapsmarker.com/markers/restaurants-bars/hotels/hotel/?custom_color=b00dc9>
 
-    COMMIT: <https://github.com/webmapping/wien/commit/9fd70b4c8ea0be3a6ea9900b25bfe10b360d31ec>
+    COMMIT: <https://github.com/webmapping24s/wien/commit/9fd70b4c8ea0be3a6ea9900b25bfe10b360d31ec>
 
 Damit haben wir alle Icons vorbereitet und wir können sie bei den jeweiligen Layern einbauen
 
@@ -205,7 +205,7 @@ COMMIT:
         });
     ```
 
-    COMMIT: <https://github.com/webmapping/wien/commit/b5c8bc5a8deffa38aeac0fc78128579a65265733>
+    COMMIT: <https://github.com/webmapping24s/wien/commit/b5c8bc5a8deffa38aeac0fc78128579a65265733>
 
 Gut, dass alle Icons die selbe Größe haben, denn wir können damit für alle die selben Anfasspunkte verwenden. Das Einzige, was sich ändern wird, sind die Links zu den Icons im `icon/` Verzeichnis
 
@@ -233,7 +233,7 @@ Gut, dass alle Icons die selbe Größe haben, denn wir können damit für alle d
         });
     ```
 
-    COMMIT <https://github.com/webmapping/wien/commit/a1975eb96877c225a0246f6dda04439c92027551>
+    COMMIT <https://github.com/webmapping24s/wien/commit/a1975eb96877c225a0246f6dda04439c92027551>
 
 ### Task 4: Marker der Hotels durch unterschiedliche Icons nach Sternen der Unterkunft ersetzen
 
@@ -271,7 +271,7 @@ Gut, dass alle Icons die selbe Größe haben, denn wir können damit für alle d
         },
     ```
 
-    COMMIT: <https://github.com/webmapping/wien/commit/e904affee44026600b80045c70521d9420585bd5>
+    COMMIT: <https://github.com/webmapping24s/wien/commit/e904affee44026600b80045c70521d9420585bd5>
 
 ### Task 5: Icons der Hotels mit Leaflet.markercluster automatisch clustern
 
@@ -310,4 +310,4 @@ Gut, dass alle Icons die selbe Größe haben, denn wir können damit für alle d
     }
     ```
 
-COMMIT: <https://github.com/webmapping/wien/commit/d17085f020592d252dccec5c5799916cbe959489>
+COMMIT: <https://github.com/webmapping24s/wien/commit/d17085f020592d252dccec5c5799916cbe959489>

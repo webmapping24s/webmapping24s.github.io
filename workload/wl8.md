@@ -4,7 +4,7 @@
 
 1. erstellt auf github.com ein neues public Repo `biketirol`
 
-2. cloned es lokal und packt das Bike Trail Tirol Template <https://webmapping.github.io/templates/template-biketirol.zip> dort aus
+2. cloned es lokal und packt das Bike Trail Tirol Template <https://webmapping24s.github.io/templates/template-biketirol.zip> dort aus
 
 3. schaut euch den Quelltext von `index.html`, `main.css` und `main.js` an - was ist neu?
 

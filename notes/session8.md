@@ -4,11 +4,11 @@
 
 - Repo `forecast` erstellen, lokal clonen, Template auspacken, `add` und `push` wie gehabt
 
-    COMMIT <https://github.com/webmapping/forecast/commit/27503b6f6faef7147ec9d25b2a6c8e332eea8fe9>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/27503b6f6faef7147ec9d25b2a6c8e332eea8fe9>
 
 - Icons besorgen: am Besten das Icons-Repo <https://github.com/metno/weathericons.git> temporär clonen und die SVG-Icons in das eigene, leere `icons/` Verzeichnis verschieben, dann `add` und `push`
 
-    COMMIT <https://github.com/webmapping/forecast/commit/f1b1c43ef095e884892830ed00da730814e8e85f>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/f1b1c43ef095e884892830ed00da730814e8e85f>
 
 ## Wettervorhersage met.no implementieren
 
@@ -38,7 +38,7 @@
     }).addTo(themaLayer.forecast)
     ```
 
-    COMMIT <https://github.com/webmapping/forecast/commit/ba5280ed7f30cdcba6de71c751f52bf77617b0c4>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/ba5280ed7f30cdcba6de71c751f52bf77617b0c4>
 
 - das **standalone Popup** erstellen wir mit `L.popup()` <https://leafletjs.com/reference.html#popup> und binden es nicht an einen Marker, sondern hängen es direkt mit einem leeren Template string an `themaLayer.forecast` - ein leeres Popup erscheint bei Innsbruck
 
@@ -52,7 +52,7 @@
     }).addTo(themaLayer.forecast)
     ```
 
-    COMMIT <https://github.com/webmapping/forecast/commit/2d731d56365a97df503f0c9d2b6c2d752a861700>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/2d731d56365a97df503f0c9d2b6c2d752a861700>
 
 - im Popup werden wir im nächsten Schritt die aktuellen Wetterwerte anzeigen und dazu müssen wir uns die JSON-Daten der Vorhersage genauer ansehen
 
@@ -108,7 +108,7 @@
     }).openOn(themaLayer.forecast);
     ```
 
-    COMMIT <https://github.com/webmapping/forecast/commit/a55e0c42c6363656284a3d85bbf015a5a0308dee>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/a55e0c42c6363656284a3d85bbf015a5a0308dee>
 
 - zum Umsetzen der Attribut-Namen in tatsächliche werte müssen wir uns die Daten genauer ansehen. Die aktuellen Wetterwerte finden wir im ersten Eintrag (Index `0`) des `feature.properties.timeseries` Array und dort in `feature.properties.timeseries[0].data.instant.details` - ein *shortcut* zu diesen tief verschachtelten Details bietet sich an - wir definieren ihn am Beginn der `pointToLayer` Option:
 
@@ -130,7 +130,7 @@
     `;
     ```
 
-    COMMIT <https://github.com/webmapping/forecast/commit/6c463f33ab1243ab7d90fe9903e99cd346e353f9>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/6c463f33ab1243ab7d90fe9903e99cd346e353f9>
 
 - die Windgeschwindigkeit rechnen wir noch in km/h um und runden auf ganze Zahlen
 
@@ -141,11 +141,11 @@
     `
     ```
 
-    COMMIT <https://github.com/webmapping/forecast/commit/72b7a6088858b509decfeab253b993eeae0806d1>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/72b7a6088858b509decfeab253b993eeae0806d1>
 
 - an dieser Stelle fällt auf, dass der Niederschlag immer `undefined` ist :-( Das liegt daran, dass er zwar in den Metadaten angeführt ist, in den Detaildaten aber fehlt. Nur bei den Wetteraussichten mit Wettersymbolen und voraussichtlichen Niederschlagsmengen `data.next_1_hours`, `data.next_6_hours`, `data.next_12_hours` wäre er zu finden, trotzdem verzichten auf eine Angabe im Popup und löschen diesen Eintrag aus der Liste. Ob es regnet oder nicht, werden wir später noch im Popup sehen ...
 
-    COMMIT <https://github.com/webmapping/forecast/commit/b197b71c434f92b95c198bdc8936d48cebd61838>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/b197b71c434f92b95c198bdc8936d48cebd61838>
 
 - wie schon beim Wetterstationen-Beispiel, können wir auch hier mit echten Datumsangaben arbeiten. Das Referenzdatum für die erste Vorhersage finden wir in `feature.properties.timeseries[0].time`. Wir initialisieren damit ein echtes Datum für den Zeitpunkt und schreiben ihn in der eingestellten Lokale als &lt;h4&gt; Element vor die Liste
 
@@ -159,7 +159,7 @@
     `;
     ```
 
-    COMMIT <https://github.com/webmapping/forecast/commit/de43961c1dbfa279ab78fa62def8f23e387708ec>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/de43961c1dbfa279ab78fa62def8f23e387708ec>
 
 ### c) Wettersymbole für die nächsten 24 Stunden in 3 Stunden Abständen hinzufügen
 
@@ -193,7 +193,7 @@
     }
     ```
 
-    COMMIT <https://github.com/webmapping/forecast/commit/d5ad4ef26068918e3c8831c3d8c355e294711188>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/d5ad4ef26068918e3c8831c3d8c355e294711188>
 
 - zur besseren Lesbarkeit ergänzen wir bei den Symbolen das jeweilige Datum als Tooltip über ein `title-Attribut`. Das Datum finden wir in `feature.properties.timeseries[i].time` - wir speichern es in einer Variablen `time` und formatieren es in der eingestellten Lokale des Browsers
 
@@ -206,7 +206,7 @@
     }
     ```
 
-    COMMIT <https://github.com/webmapping/forecast/commit/1193450be2c7e0a2b55d9318ffd546ef13b31a0e>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/1193450be2c7e0a2b55d9318ffd546ef13b31a0e>
 
 - zum Schluss ergänzen wir im Popup nach den Wettericons noch einen Download-Link zur JSON-Datei der Vorhersage. Was macht noch einmal das `target`?
 
@@ -215,7 +215,7 @@
     content += `<p><a href="${url}" target="met.no">Daten downloaden</a></p>`;
     ```
 
-    COMMIT <https://github.com/webmapping/forecast/commit/5cbb05db03190752f9b6f84a2d3b5f9432d91c7e>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/5cbb05db03190752f9b6f84a2d3b5f9432d91c7e>
 
 ### d) Wettervorhersage für jeden Ort der Welt implementieren
 
@@ -242,7 +242,7 @@
     });
     ```
 
-    COMMIT <https://github.com/webmapping/forecast/commit/ce4832501ed2e088c9b434f07cb9422886b77d05>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/ce4832501ed2e088c9b434f07cb9422886b77d05>
 
 - Events können wir in Leaflet auch selbst auslösen - `map.fire` <https://leafletjs.com/reference.html#evented-fire> hilft uns dabei. Es erwartet die Art des Events und ein Event-Objekt um das wir uns selber kümmern müssen - wir füllen es mit dem von Oben bekannten `latlng` Eintrag, setzen als Koordinate Innsbruck und können somit den manuellen Aufruf von `showForecast` für Innsbruck auskommentieren. Das Popup wird trotzdem angezeigt, als hätten wir auf Innsbruck geklickt.
 
@@ -253,7 +253,7 @@
     });
     ```
 
-    COMMIT <https://github.com/webmapping/forecast/commit/19f4f86585835c1e1d634d2903d8b6a3b3457188>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/19f4f86585835c1e1d634d2903d8b6a3b3457188>
 
 ## ECMWF Windvorhersage implementieren
 
@@ -261,7 +261,7 @@ Mit Wind ist immer auch Bewegung verbunden und deshalb werden wir im nächsten S
 
 ### a) Die Daten asynchron in der Funktion loadWind() laden
 
-- die für unsere Windanimation benötigten Daten liegen auf dem Server der Geographie unter `wind-10u-10v-europe.json` <https://geographie.uibk.ac.at/data/ecmwf/data/wind-10u-10v-europe.json> und sind das Endprodukt einer Reihe von Schritten, die aus den Originaldaten beim ECMWF <https://confluence.ecmwf.int/display/UDOC/ECMWF+Open+Data+-+Real+Time> im Format GRIB2 die passende JSON-Datei erzeugt. Das "HOWTO ECMWF Windvorhersage-Daten für Leaflet velocity aufbereiten" <https://webmapping.github.io/forecast/ecmwf2json> zeigt den verwendeten Workflow
+- die für unsere Windanimation benötigten Daten liegen auf dem Server der Geographie unter `wind-10u-10v-europe.json` <https://geographie.uibk.ac.at/data/ecmwf/data/wind-10u-10v-europe.json> und sind das Endprodukt einer Reihe von Schritten, die aus den Originaldaten beim ECMWF <https://confluence.ecmwf.int/display/UDOC/ECMWF+Open+Data+-+Real+Time> im Format GRIB2 die passende JSON-Datei erzeugt. Das "HOWTO ECMWF Windvorhersage-Daten für Leaflet velocity aufbereiten" <https://webmapping24s.github.io/forecast/ecmwf2json> zeigt den verwendeten Workflow
 
     ```javascript
     // Windkarte
@@ -273,7 +273,7 @@ Mit Wind ist immer auch Bewegung verbunden und deshalb werden wir im nächsten S
     loadWind("https://geographie.uibk.ac.at/data/ecmwf/data/wind-10u-10v-europe.json");
     ```
 
-    COMMIT <https://github.com/webmapping/forecast/commit/3a4873c0f39f6742c2ce8e9db7c9c42c1c8b3a8e>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/3a4873c0f39f6742c2ce8e9db7c9c42c1c8b3a8e>
 
 - wir sehen in `jsondata` einen Array bestehend aus zwei Objekten:
 
@@ -293,7 +293,7 @@ Mit Wind ist immer auch Bewegung verbunden und deshalb werden wir im nächsten S
     - im `dist`-Ordner des Quellcodes die beiden Dateien `leaflet-velocity.css` und `leaflet-velocity.js` im neuen `lib/`-Verzeichnis entpacken
     - `add` und `commit` des `lib`-Verzeichnisses
 
-    COMMIT <https://github.com/webmapping/forecast/commit/3b274103626e9ab21af698646c5a487c325d6b3b>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/3b274103626e9ab21af698646c5a487c325d6b3b>
 
 - damit ist das Plugin lokal verfügbar und wir können Stylesheet und Javascript in `index.html` einbinden
 
@@ -303,7 +303,7 @@ Mit Wind ist immer auch Bewegung verbunden und deshalb werden wir im nächsten S
     <link rel="stylesheet" href="lib/leaflet-velocity.css">
     ```
 
-    COMMIT <https://github.com/webmapping/forecast/commit/a6f4d1e4735ae65ec1dbad7a3fecb536b879ba58>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/a6f4d1e4735ae65ec1dbad7a3fecb536b879ba58>
 
 ### d) Das Plugin konfigurieren
 
@@ -325,7 +325,7 @@ Mit Wind ist immer auch Bewegung verbunden und deshalb werden wir im nächsten S
     }).addTo(map);
     ```
 
-    COMMIT <https://github.com/webmapping/forecast/commit/a22a9a4e6a7767f45a59fc5fd46c2b254de26847>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/a22a9a4e6a7767f45a59fc5fd46c2b254de26847>
 
 - danach können wir das Plugin initialisieren und dabei die JSON-Daten übergeben
 
@@ -336,7 +336,7 @@ Mit Wind ist immer auch Bewegung verbunden und deshalb werden wir im nächsten S
     }).addTo(themaLayer.wind);
     ```
 
-    COMMIT <https://github.com/webmapping/forecast/commit/784df52531407cd37f6ea4498290c29de91eb8db>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/784df52531407cd37f6ea4498290c29de91eb8db>
 
 - **Voilà**, die Animation der Windrichtung und Stärke für Europa ist sichtbar. Wie das ganze funktioniert, kann man bei Visualizing wind using Leaflet - Wolfblog nachlesen (<https://wlog.viltstigen.se/articles/2021/11/08/visualizing-wind-using-leaflet/>). Noch beeindruckender ist die 3D-Visualisierung von <https://earth.nullschool.net/>.
 
@@ -356,7 +356,7 @@ Mit Wind ist immer auch Bewegung verbunden und deshalb werden wir im nächsten S
     }).addTo(themaLayer.wind);
     ```
 
-    COMMIT <https://github.com/webmapping/forecast/commit/56371eaca95a1a1e2db6f7af60cfec7df2f1c632>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/56371eaca95a1a1e2db6f7af60cfec7df2f1c632>
 
 ### e) Den Zeitpunkt der Vorhersage ermitteln
 
@@ -376,7 +376,7 @@ Mit Wind ist immer auch Bewegung verbunden und deshalb werden wir im nächsten S
     console.log(forecastDate);
     ```
 
-    COMMIT <https://github.com/webmapping/forecast/commit/943fe634fb8032b39ae824adde3721d27df318c0>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/943fe634fb8032b39ae824adde3721d27df318c0>
 
 ### f) Den Zeitpunkt auf der HTML-Seite anzeigen
 
@@ -405,7 +405,7 @@ Mit Wind ist immer auch Bewegung verbunden und deshalb werden wir im nächsten S
 
 - damit ist die Karte fertig
 
-    COMMIT <https://github.com/webmapping/forecast/commit/09611a17f5c573ce9afb93f486a44fd78e8c334c>
+    COMMIT <https://github.com/webmapping24s/forecast/commit/09611a17f5c573ce9afb93f486a44fd78e8c334c>
 
 ### document.querySelector() und .innerHTML
 
@@ -423,4 +423,4 @@ document.querySelector("body").innerHTML = "das war's für heute";
 
 aber besser ist's, wir kommentieren die beiden letzten Zeilen wieder aus :-)
 
-COMMIT <https://github.com/webmapping/forecast/commit/92f64dcb61e67338970d1f3deb20fe4b064675e6>
+COMMIT <https://github.com/webmapping24s/forecast/commit/92f64dcb61e67338970d1f3deb20fe4b064675e6>

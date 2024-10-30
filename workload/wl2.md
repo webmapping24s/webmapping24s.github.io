@@ -10,8 +10,8 @@ Diese beiden Tutorials eigenständig bis zum Beginn der nächsten Session am 21.
 
 ## Bringt eure Seite der Lieblingsorte auf den letzten Stand
 
-- bereinigt Fehler (z.B. falsche Links zu den Nachbar:innen, fehlende Inhalte, zu kleine Bilder, falsche Bildnamen etc.) - Vorlage ist unsere Etappenseite unter [https://webmapping.github.io/top](https://webmapping.github.io/top)
-- überprüft mit dem [Link Checker Tool](https://webmapping.github.io/linkchecker), ob die Bilder auch an der richtigen Stelle liegen.
+- bereinigt Fehler (z.B. falsche Links zu den Nachbar:innen, fehlende Inhalte, zu kleine Bilder, falsche Bildnamen etc.) - Vorlage ist unsere Etappenseite unter [https://webmapping24s.github.io/top](https://webmapping24s.github.io/top)
+- überprüft mit dem [Link Checker Tool](https://webmapping24s.github.io/linkchecker), ob die Bilder auch an der richtigen Stelle liegen.
 - stellt sicher, dass die Struktur eurer Seite stimmt
 
     ```html

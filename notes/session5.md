@@ -2,28 +2,28 @@
 
 ## 1. Neues Repo wien erstellen, clonen und online bringen
 
-- <https://github.com/webmapping>: Create a new repository "wien"
+- <https://github.com/webmapping24s>: Create a new repository "wien"
 
-- clone <https://github.com/webmapping/wien.git> in VS Code lokal
+- clone <https://github.com/webmapping24s/wien.git> in VS Code lokal
 
   - F1 Git: Clone
   - Desktop -> neues Verzeichnis "wien" -> "Select Repository Location" -> Open in New Window
 
-- Template <https://webmapping.github.io/templates/template-wien.zip> auspacken und Inhalt ins `wien`-Verzeichnis verschieben
+- Template <https://webmapping24s.github.io/templates/template-wien.zip> auspacken und Inhalt ins `wien`-Verzeichnis verschieben
 
-- alles hinzufügen und und Push zurück auf <https://github.com/webmapping/wien>
+- alles hinzufügen und und Push zurück auf <https://github.com/webmapping24s/wien>
 
   - bei den drei Punkten oder über F1
   - zustimmen, dass oath verwendet wird
-  - <https://github.com/webmapping/wien> neu laden - wunderbar
+  - <https://github.com/webmapping24s/wien> neu laden - wunderbar
 
-  COMMIT: <https://github.com/webmapping/wien/commit/0af9532846bc9d963882ffcdbd0c4265d0cb6c9c>
+  COMMIT: <https://github.com/webmapping24s/wien/commit/0af9532846bc9d963882ffcdbd0c4265d0cb6c9c>
 
 - online verfügbar machen - der Weg 2 nach **username.github.io**
 
   - Settings -> Pages -> Source -> "main" wählen und "Save"
 
-  - Your site is ready to be published at <https://webmapping.github.io/wien/>
+  - Your site is ready to be published at <https://webmapping24s.github.io/wien/>
 
   - warten, es wird irgendwann verfügbar sein
 
@@ -104,7 +104,7 @@ L.marker([stephansdom.lat, stephansdom.lng])
 
 - Aufgabe: einen weiteren Layer über Leaflet.providers implementieren
 
-  COMMIT: <https://github.com/webmapping/wien/commit/6bdc3b24cafef231d2cb053b225ccec29985010f>
+  COMMIT: <https://github.com/webmapping24s/wien/commit/6bdc3b24cafef231d2cb053b225ccec29985010f>
 
 ## 3. Interface verfeinern
 
@@ -123,7 +123,7 @@ L.marker([stephansdom.lat, stephansdom.lng])
     L.control.fullscreen().addTo(map);
     ```
 
-  COMMIT: <https://github.com/webmapping/wien/commit/85977be2f0ab70a67ab4f2925953a3b1dd1c2e41>
+  COMMIT: <https://github.com/webmapping24s/wien/commit/85977be2f0ab70a67ab4f2925953a3b1dd1c2e41>
 
 ## 4. Daten via L.geoJSON von URL laden
 
@@ -247,7 +247,7 @@ async function loadSights(url) {
 }
 ```
 
-  COMMIT: <https://github.com/webmapping/wien/commit/1bea70768e6f4f41ecaa5ae0add79db51686272f>
+  COMMIT: <https://github.com/webmapping24s/wien/commit/1bea70768e6f4f41ecaa5ae0add79db51686272f>
 
 
 die Marker für die Sehenswürdigkeiten sind damit auf der Karte sichtbar
@@ -280,7 +280,7 @@ Noch eleganter ist es, den GeoJSON-Layer in ein eigenes Overlay zu schreiben.
     L.geoJSON(geojson).addTo(themaLayer.sights);
     ```
 
-COMMIT: <https://github.com/webmapping/wien/commit/0a2789d1e9e0261df91f146467ad3f0a3dbacbcf>
+COMMIT: <https://github.com/webmapping24s/wien/commit/0a2789d1e9e0261df91f146467ad3f0a3dbacbcf>
 
 Damit kann der Sehenswürdigkeiten Layer ein- und ausgeschaltet werden
 
@@ -303,7 +303,7 @@ Damit kann der Sehenswürdigkeiten Layer ein- und ausgeschaltet werden
     }).addTo(themaLayer.sights);
     ```
 
-    COMMIT: <https://github.com/webmapping/wien/commit/71be53fe19c975c371e6b5057e78dbe2998a9b86>
+    COMMIT: <https://github.com/webmapping24s/wien/commit/71be53fe19c975c371e6b5057e78dbe2998a9b86>
 
     * `alt="*"` bedeutet, dass unser Bild rein dekorativ ist. Wir wissen ja auch gar nicht, was auf den einzelnen Bildern zu sehen ist.
     
@@ -318,27 +318,27 @@ Damit kann der Sehenswürdigkeiten Layer ein- und ausgeschaltet werden
     * Datensatz *Touristische Kraftfahrlinien Liniennetz Vienna Sightseeing Linie Wien*
     * Overlay Key/Label: `lines` und "Liniennetz Vienna Sightseeing"
 
-    COMMIT: <https://github.com/webmapping/wien/commit/be14b7d6ea560efb314052afb5fd30d9788e5bb9>
+    COMMIT: <https://github.com/webmapping24s/wien/commit/be14b7d6ea560efb314052afb5fd30d9788e5bb9>
 
 2. Funktion `loadStops`
     * Suche: *sightseeing* - <https://www.data.gv.at/suche/?searchterm=sightseeing>
     * Datensatz *Touristische Kraftfahrlinien Haltestellen Vienna Sightseeing Linie Standorte Wien*
     * Overlay Key/Label: `stops` und "Haltestellen Vienna Sightseeing"
 
-    COMMIT: https://github.com/webmapping/wien/commit/8040bb895b60ab961a33baaf0683bc89cddbad22>
+    COMMIT: https://github.com/webmapping24s/wien/commit/8040bb895b60ab961a33baaf0683bc89cddbad22>
 
 3. Funktion `loadZones`
     * Suche: *Fußgängerzonen* - <https://www.data.gv.at/suche/?searchterm=Fu%C3%9Fg%C3%A4ngerzonen>
     * Datensatz *Fußgängerzonen Wien*
     * Overlay Key/Label: `zones` und "Fußgängerzonen"
 
-    COMMIT: <https://github.com/webmapping/wien/commit/ef42d26b160d9955ba27df70ad96479b98eb0504>
+    COMMIT: <https://github.com/webmapping24s/wien/commit/ef42d26b160d9955ba27df70ad96479b98eb0504>
 
 4. Funktion `loadHotels`
     * Suche: *Hotels*
     * Datensatz *Hotels und Unterkünfte Standorte Wien*
     * Overlay Key/Label: `hotels` und "Hotels und Unterkünfte"
 
-    COMMIT: <https://github.com/webmapping/wien/commit/c1d53fb96c40b74c1cd57b417318b6cda5df157e>
+    COMMIT: <https://github.com/webmapping24s/wien/commit/c1d53fb96c40b74c1cd57b417318b6cda5df157e>
 
 **das war's für heute ...**

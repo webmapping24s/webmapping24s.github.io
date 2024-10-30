@@ -75,15 +75,15 @@ So viel zu den Tutorials, wenden wir uns wieder dem Neuseelandbeispiel zu und ve
 
 - verwenden wir `let` statt `var`
     
-    COMMIT: <https://github.com/webmapping/nz/commit/f1c5f236be8a5a1e02a2ab522766cedabf7c59a3>
+    COMMIT: <https://github.com/webmapping24s/nz/commit/f1c5f236be8a5a1e02a2ab522766cedabf7c59a3>
 
 - speichern wir ganz oben im Skript die Breite und Länge unserer Koordinate in zwei Variablen `lat` und `lng` und verwenden wir `lat`, `lng` bei `setView()` und bei `L.marker()`
 
-    COMMIT: <https://github.com/webmapping/nz/commit/df402b9beb7983867709f64cab6d170f859579f9>
+    COMMIT: <https://github.com/webmapping24s/nz/commit/df402b9beb7983867709f64cab6d170f859579f9>
 
 - speichern wir den Zoom-Faktor in einer Variablen `zoom` und verwenden ihn bei `setView()`
 
-    COMMIT: <https://github.com/webmapping/nz/commit/ffd76d79663057ddf3d6cddda1d2cffdae4126ff>
+    COMMIT: <https://github.com/webmapping24s/nz/commit/ffd76d79663057ddf3d6cddda1d2cffdae4126ff>
 
 - verwenden wir **Template strings** beim Popup, machen wir den HTML Code lesbarer und zeigen die Koordinate über **String interpolation** an
 
@@ -97,11 +97,11 @@ So viel zu den Tutorials, wenden wir uns wieder dem Neuseelandbeispiel zu und ve
     `).openPopup();
     ```
 
-    COMMIT: <https://github.com/webmapping/nz/commit/699359cca3b5301a2e509855ec2e5cdab5816fff>
+    COMMIT: <https://github.com/webmapping24s/nz/commit/699359cca3b5301a2e509855ec2e5cdab5816fff>
 
 - lernen wir eine neue Methode `.toFixed(Zahl)` bei Dezimalzahlen kennen und verwenden wir sie direkt innerhalb der *String interpolation*
 
-    COMMIT: <https://github.com/webmapping/nz/commit/1f2f6a99c55f3774ab4afde480b8123a48bbc874>
+    COMMIT: <https://github.com/webmapping24s/nz/commit/1f2f6a99c55f3774ab4afde480b8123a48bbc874>
 
 ## Leaflet Dokumentation entdecken
 
@@ -124,7 +124,7 @@ Das **L** steht für Leaflet und unter <https://leafletjs.com/reference.html> st
     });
     ```
 
-    COMMIT: <https://github.com/webmapping/nz/commit/f93ae1279b27c7668a357bb3bf8c0d0842ba5dde>
+    COMMIT: <https://github.com/webmapping24s/nz/commit/f93ae1279b27c7668a357bb3bf8c0d0842ba5dde>
 
 - unter "*Creation*" steht die Erklärung wie man `L.map` verwenden kann -> "*Factory / Description*"
 
@@ -239,7 +239,7 @@ Probieren wir ein neues Features mit Hilfe der Dokumentation zu implementieren -
     }).addTo(map);
     ```
 
-    COMMIT: <https://github.com/webmapping/nz/commit/a316b8c84ef2d6b679f310ac9b75e58727820fcf>
+    COMMIT: <https://github.com/webmapping24s/nz/commit/a316b8c84ef2d6b679f310ac9b75e58727820fcf>
 
 Jetzt ist ein guter Zeitpunkt, Version 1.0 unseres Neuseeland Beispiels auf github.com zu veröffentlichen
 
@@ -259,7 +259,7 @@ Jetzt ist ein guter Zeitpunkt, Version 1.0 unseres Neuseeland Beispiels auf gith
 
     - "*Describe this release*" "Etappenseite mit Bildern, Texten, Links, Navigation zu den Nachbar:innen und einer einfach Übersichtskarte mit Marker, Popup und Maßstab"
 
-    - Ergebnis: <https://github.com/webmapping/nz/releases/tag/v1.0>
+    - Ergebnis: <https://github.com/webmapping24s/nz/releases/tag/v1.0>
 
 
 ## Geometrie für die Karte
@@ -321,7 +321,7 @@ Jetzt ist ein guter Zeitpunkt, Version 1.0 unseres Neuseeland Beispiels auf gith
             `;
         }).addTo(map);
         ```
-    - COMMIT: <https://github.com/webmapping/nz/commit/e2ab10297b4e5dd25448ae301fee3bf6acbe5291> 
+    - COMMIT: <https://github.com/webmapping24s/nz/commit/e2ab10297b4e5dd25448ae301fee3bf6acbe5291> 
 
 Auf den ersten Blick, scheint das alles sehr kompliziert, aber der Vorteil des Codes, den wir entwickelt haben ist, dass es jetzt ganz einfach ist, alle Etappenmarker in die Karte einzubauen. Wir benötigen nur ein geoJSON Objekt mit allen Markern und das erzeugen wir jetzt
 
@@ -355,7 +355,7 @@ Auf den ersten Blick, scheint das alles sehr kompliziert, aber der Vorteil des C
 
 - jetzt müssen wir nur noch das `jsondata` Objekt mit allen Etappen  beim Aufruf von `L.geoJSON` verwenden und alle Marker sind in der Karte mit einem Popup sichtbar
 
-    COMMIT: <https://github.com/webmapping/nz/commit/f15b8330504db97a8ab995fa8c0a2fb976bf12ee>
+    COMMIT: <https://github.com/webmapping24s/nz/commit/f15b8330504db97a8ab995fa8c0a2fb976bf12ee>
 
 - das Popup verfeinern wir schließlich noch und ergänzen über die Properties `user` und `wikipedia` zwei Links zur Etappen- und Wikipediaseite
 
@@ -366,8 +366,8 @@ Auf den ersten Blick, scheint das alles sehr kompliziert, aber der Vorteil des C
     `
     ```
 
-COMMIT: <https://github.com/webmapping/nz/commit/9c4550d93edd33456e3cd28e46b278d13f113fd5>
+COMMIT: <https://github.com/webmapping24s/nz/commit/9c4550d93edd33456e3cd28e46b278d13f113fd5>
 
 ## Release Neuseelandreise v1.1 kann kommen :-)
 
-<https://github.com/webmapping/nz/releases/tag/v1.1>
+<https://github.com/webmapping24s/nz/releases/tag/v1.1>

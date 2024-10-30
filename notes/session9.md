@@ -4,15 +4,15 @@
 
 - Repo `biketirol` erstellen, lokal clonen, Template auspacken, `add` und `push` wie gehabt
 
-    COMMIT <https://github.com/webmapping/biketirol/commit/e86fda6c08f9429c1598dd34fb3bb8ce7a8a62e3>
+    COMMIT <https://github.com/webmapping24s/biketirol/commit/e86fda6c08f9429c1598dd34fb3bb8ce7a8a62e3>
 
 - GPX-Daten der Etappe besorgen: Links zur eigenen Etappe siehe `biketirol_etappen.ods` im OLAT-Kurs. Originalseite ansteuern und GPX-Track in `data/` mit dem Pattern `etappeNR.gpx` speichern dann `add` und `push`
 
-    COMMIT <https://github.com/webmapping/biketirol/commit/16c3d3db5a3e7d18b1f31f608100fbc644cafab2>
+    COMMIT <https://github.com/webmapping24s/biketirol/commit/16c3d3db5a3e7d18b1f31f608100fbc644cafab2>
 
 - todo-Marker auflösen: straight forward
 
-  COMMIT <https://github.com/webmapping/biketirol/commit/f165a007124007e12550a1eaf04ac3fcfb6ce44d>
+  COMMIT <https://github.com/webmapping24s/biketirol/commit/f165a007124007e12550a1eaf04ac3fcfb6ce44d>
 
 - was ist neu im Template? **Gruppieren von TileLayern** über `L.layerGroup()` <https://leafletjs.com/reference.html#layergroup>
 
@@ -46,7 +46,7 @@
 
 - siehe"*How to use*" für den Einbau der Plugin-Dateien .js und .css in index.html
 
-    COMMIT <https://github.com/webmapping/biketirol/commit/de4cedb072d9f103fb70bac351f993db1abd39e2>
+    COMMIT <https://github.com/webmapping24s/biketirol/commit/de4cedb072d9f103fb70bac351f993db1abd39e2>
 
 - Initialisieren des Plugins noch ohne Optionen in main.js
 
@@ -55,7 +55,7 @@
     controlElevation.load("data/etappe7.gpx");
     ```
 
-    COMMIT <https://github.com/webmapping/biketirol/commit/42f29652702e5f2c2dcf292b4c3a719fa6f39462>
+    COMMIT <https://github.com/webmapping24s/biketirol/commit/42f29652702e5f2c2dcf292b4c3a719fa6f39462>
 
 - das Resultat in der Karte:
 
@@ -93,7 +93,7 @@
     }).addTo(map);
     ```
 
-    COMMIT <https://github.com/webmapping/biketirol/commit/c94af2da841ed5726c744f87bdb3390f4b10dde4>
+    COMMIT <https://github.com/webmapping24s/biketirol/commit/c94af2da841ed5726c744f87bdb3390f4b10dde4>
 
 - den Profil DIV stylen
 
@@ -113,7 +113,7 @@
     }).addTo(map);
     ```
 
-    COMMIT <https://github.com/webmapping/biketirol/commit/0b9b14fbb5f24cf20b74221106aeefb6c9b4bf22>
+    COMMIT <https://github.com/webmapping24s/biketirol/commit/0b9b14fbb5f24cf20b74221106aeefb6c9b4bf22>
 
 - den Profil DIV in `main.css` noch ähnlich wie die Karte stylen
 
@@ -124,7 +124,7 @@
     }
     ```
 
-    COMMIT <https://github.com/webmapping/biketirol/commit/34b1f629b194d317e893375f85414c60f22d825f>
+    COMMIT <https://github.com/webmapping24s/biketirol/commit/34b1f629b194d317e893375f85414c60f22d825f>
 
 - Höhenprofil und Hintergrund über ein custom Theme stylen - der Name ist frei wählbar und wird als CSS-Klasse vom Plugin interpretiert
 
@@ -150,7 +150,7 @@
     }
     ```
 
-    COMMIT <https://github.com/webmapping/biketirol/commit/4ff6326939160a2f72373a497ddfe3788c6293c5>
+    COMMIT <https://github.com/webmapping24s/biketirol/commit/4ff6326939160a2f72373a497ddfe3788c6293c5>
 
 ## Etappennavigation als Pulldown über ein Etappenobjekt
 
@@ -182,7 +182,7 @@
     <script src="etappen.js"></script>
     ```
 
-COMMIT <https://github.com/webmapping/biketirol/commit/47855a48ae63e7101f6dab9e8c89e9ae964f245e>
+COMMIT <https://github.com/webmapping24s/biketirol/commit/47855a48ae63e7101f6dab9e8c89e9ae964f245e>
 
 ### ein Pulldown-Menü oberhalb der Karte definieren
 
@@ -208,7 +208,7 @@ COMMIT <https://github.com/webmapping/biketirol/commit/47855a48ae63e7101f6dab9e8
     console.log("Pulldown: " , pulldown);
     ```
 
-COMMIT <https://github.com/webmapping/biketirol/commit/762e9c5381e9479dce4964564519f1fb0a2049e7>
+COMMIT <https://github.com/webmapping24s/biketirol/commit/762e9c5381e9479dce4964564519f1fb0a2049e7>
 
 ### das Pulldown mit einer for ... of Schleife und .innerHTML befüllen
 
@@ -237,7 +237,7 @@ COMMIT <https://github.com/webmapping/biketirol/commit/762e9c5381e9479dce4964564
     }
     ```
 
-    COMMIT <https://github.com/webmapping/biketirol/commit/7492cdadf443493a531a63d96cf88a20662479a2>
+    COMMIT <https://github.com/webmapping24s/biketirol/commit/7492cdadf443493a531a63d96cf88a20662479a2>
 
 - die eigene Etappe sollten wir vorselektieren - das geht über das Attribut `selected` bei &lt;option&gt;
 
@@ -255,7 +255,7 @@ COMMIT <https://github.com/webmapping/biketirol/commit/762e9c5381e9479dce4964564
     }
     ```
 
-    COMMIT <https://github.com/webmapping/biketirol/commit/4a0d58fe2a387705c44218baa5970e2ba484511b>
+    COMMIT <https://github.com/webmapping24s/biketirol/commit/4a0d58fe2a387705c44218baa5970e2ba484511b>
 
 ### bei Änderung im Pulldown zur Etappe wechseln
 
@@ -294,7 +294,7 @@ COMMIT <https://github.com/webmapping/biketirol/commit/762e9c5381e9479dce4964564
     }
     ```
 
-    COMMIT <https://github.com/webmapping/biketirol/commit/5095bfa8c88f4d21cad44323bf0b645ac0423001>
+    COMMIT <https://github.com/webmapping24s/biketirol/commit/5095bfa8c88f4d21cad44323bf0b645ac0423001>
 
 - mit `document`, `window` und `Events`, kann man alles, was man im Browser sieht (oder auch verborgen im Quelltext steht) ansteuern, lesen und ändern ....
 
@@ -306,7 +306,7 @@ COMMIT <https://github.com/webmapping/biketirol/commit/762e9c5381e9479dce4964564
     }
     ```
 
-    COMMIT <https://github.com/webmapping/biketirol/commit/c5611b1b2d526d6a4a12ce4abd6632394dbf9a63>
+    COMMIT <https://github.com/webmapping24s/biketirol/commit/c5611b1b2d526d6a4a12ce4abd6632394dbf9a63>
 
 ## zum Schluss noch eine Minimap für die Kartennavigation
 
@@ -320,7 +320,7 @@ COMMIT <https://github.com/webmapping/biketirol/commit/762e9c5381e9479dce4964564
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.js" integrity="sha512-ceQPs2CHke3gSINLt/JV37W1rfJOM64yuH999hnRhTP7tNtcSBp5hlTKhn8CEIhsFweSBrZMPVotAKjoyxGWNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     ```
 
-    COMMIT <https://github.com/webmapping/biketirol/commit/9c39d88d59247422fbba2e98fbef92cc47d67337>
+    COMMIT <https://github.com/webmapping24s/biketirol/commit/9c39d88d59247422fbba2e98fbef92cc47d67337>
 
 - dann das Plugin initialisieren, einen tileLayer für den Kartenhintergrund der Minimap bestimmen und über die Option `toggleDisplay` das Ein-, bzw. Ausklappen der Minimap ermöglichen
 
@@ -334,4 +334,4 @@ COMMIT <https://github.com/webmapping/biketirol/commit/762e9c5381e9479dce4964564
     ).addTo(map);
     ```
 
-    COMMIT <https://github.com/webmapping/biketirol/commit/e012d3bbab75d9a2e7bf24828b3a1d1276082aed>
+    COMMIT <https://github.com/webmapping24s/biketirol/commit/e012d3bbab75d9a2e7bf24828b3a1d1276082aed>

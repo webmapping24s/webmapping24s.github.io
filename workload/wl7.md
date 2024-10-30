@@ -14,7 +14,7 @@ In zwei Wochen werden wir Wind- und Wetterdaten vom European Centre for Medium-R
 
 1. erstellt auf github.com ein neues public Repo `forecast`
 
-2. cloned es lokal und packt das Wind & Wetter Template <https://webmapping.github.io/templates/template-forecast.zip> dort aus
+2. cloned es lokal und packt das Wind & Wetter Template <https://webmapping24s.github.io/templates/template-forecast.zip> dort aus
 
 3. besorgt euch Wetter Icons von <https://github.com/metno/weathericons/>
 

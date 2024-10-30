@@ -30,7 +30,7 @@ Wir geben der Seite Struktur und verpacken alles im &lt;body> in in &lt;main> un
 
 - "*F1 / Format Document*" verwenden um die Einrückungen zu korrigieren
 
-- COMMIT: <https://github.com/webmapping/nz/commit/48231d7ff7be01a9126bae5b04511187331e5533>
+- COMMIT: <https://github.com/webmapping24s/nz/commit/48231d7ff7be01a9126bae5b04511187331e5533>
 
 ## Navigation verschieben
 
@@ -51,7 +51,7 @@ Wir geben der Seite Struktur und verpacken alles im &lt;body> in in &lt;main> un
 
     - wieder "*F1 / Format Document*" verwenden
 
-    - COMMIT: <https://github.com/webmapping/nz/commit/69c08c4a22976f2498ece518699e3836a96bcd05>
+    - COMMIT: <https://github.com/webmapping24s/nz/commit/69c08c4a22976f2498ece518699e3836a96bcd05>
 
 ## Header erstellen mit zwei Bildern
 
@@ -85,7 +85,7 @@ Wir geben der Seite Struktur und verpacken alles im &lt;body> in in &lt;main> un
 
     - Bild erscheint im images-Verzeichnis von Vscode
 
-    - COMMIT: <https://github.com/webmapping/nz/commit/cd7f44194ad233f4e9995a630f9d10a41963c711>
+    - COMMIT: <https://github.com/webmapping24s/nz/commit/cd7f44194ad233f4e9995a630f9d10a41963c711>
 
 ### User-Bild 100x100px
 
@@ -123,7 +123,7 @@ Wir geben der Seite Struktur und verpacken alles im &lt;body> in in &lt;main> un
 
             - EXIF, XMP, IPTC weg
 
-    - COMMIT: <https://github.com/webmapping/nz/commit/b0a046d45e3f9fa602c82808548bd30d2a30b7d8>
+    - COMMIT: <https://github.com/webmapping24s/nz/commit/b0a046d45e3f9fa602c82808548bd30d2a30b7d8>
 
 ### Bilder im Header einbauen
 
@@ -147,15 +147,15 @@ Wir geben der Seite Struktur und verpacken alles im &lt;body> in in &lt;main> un
     ```html
     <header>
         <img src="images/header.jpg" alt="Blick auf den Tongariro mit Straße im Vordergrund">
-        <a href="https://github.com/webmapping/nz"><img src="images/user.jpg" alt="VW Bus auf Wiese"></a>
+        <a href="https://github.com/webmapping24s/nz"><img src="images/user.jpg" alt="VW Bus auf Wiese"></a>
     </header>
     ```
 
-    COMMIT: <https://github.com/webmapping/nz/commit/f9e458b18b8cb439108431be26bd9cf38b7b1f0a>
+    COMMIT: <https://github.com/webmapping24s/nz/commit/f9e458b18b8cb439108431be26bd9cf38b7b1f0a>
 
 - Bildquellen im Header als Kommentare hinzufügen
 
-  COMMIT: <https://github.com/webmapping/nz/commit/4633622394f42e9f1f4bffcc1f470e28566cb2de>
+  COMMIT: <https://github.com/webmapping24s/nz/commit/4633622394f42e9f1f4bffcc1f470e28566cb2de>
 
 ## HTML Üben: "Top Spots der Webmapper:innen"
 
@@ -169,9 +169,9 @@ Wir geben der Seite Struktur und verpacken alles im &lt;body> in in &lt;main> un
 
     - Navigation zu selben Nachbar:innen wie bei Neuseelandreise
 
-- COMMITS siehe <https://github.com/webmapping/top/commits/main/>
+- COMMITS siehe <https://github.com/webmapping24s/top/commits/main/>
 
-- unsere erstellte Seite: <https://webmapping.github.io/top> (Online), <https://github.com/webmapping/top> (Repo)
+- unsere erstellte Seite: <https://webmapping24s.github.io/top> (Online), <https://github.com/webmapping24s/top> (Repo)
 
 ## Leaflet Erstkontakt
 
@@ -189,7 +189,7 @@ Wir geben der Seite Struktur und verpacken alles im &lt;body> in in &lt;main> un
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     ```
 
-   COMMIT: <https://github.com/webmapping/top/commit/46983766b8e8ce07d92499b75d9aad1f349ee6d4>
+   COMMIT: <https://github.com/webmapping24s/top/commit/46983766b8e8ce07d92499b75d9aad1f349ee6d4>
 
 2. Kartenfeld definieren
 
@@ -206,7 +206,7 @@ Wir geben der Seite Struktur und verpacken alles im &lt;body> in in &lt;main> un
     <div id="map" style="width:90%;height:600px"></div>
     ```
 
-   COMMIT: <https://github.com/webmapping/top/commit/80f4a4eb9c8672f42be066c0fd649faad46ac77b>
+   COMMIT: <https://github.com/webmapping24s/top/commit/80f4a4eb9c8672f42be066c0fd649faad46ac77b>
 
 3. Kartenskript für eine Karte mit OpenStreetMap im Hintergrund und einem Marker mit geöffnetem Popup
 
@@ -255,6 +255,6 @@ Wir geben der Seite Struktur und verpacken alles im &lt;body> in in &lt;main> un
         </script>
         ```
 
-    - COMMIT: <https://github.com/webmapping/top/commit/ac9571b880e8537a6c015f3a7cc4cd9f69f5ef1e>
+    - COMMIT: <https://github.com/webmapping24s/top/commit/ac9571b880e8537a6c015f3a7cc4cd9f69f5ef1e>
 
 **das war's für heute ...**

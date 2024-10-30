@@ -4,7 +4,7 @@
 
 1. erstellt auf github.com ein neues public Repo `aws`
 
-2. cloned es lokal und packt das [AWS Euregio Template](https://webmapping.github.io/templates/template-aws.zip) dort aus
+2. cloned es lokal und packt das [AWS Euregio Template](https://webmapping24s.github.io/templates/template-aws.zip) dort aus
 
 3. implementiert Icons für die Wetterstationen in der asynchronen Funktion `showStations`
     - verwendet das Icon `wifi` der [Map Icons Collection](https://mapicons.mapsmarker.com/)
