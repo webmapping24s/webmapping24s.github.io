@@ -2,7 +2,7 @@
 
 ## Fläche der Fußgängerzonen
 
-- bevor wir die Flächen stylen, können wir auch noch das Popup der Fußgängerzonen verfeinern, denn es gibt Fußgängerzonen, bei denen die Attribute `feature.properties.ZEITRAUM`und / oder `feature.properties.AUSN_TEXT` leer sind. Diese Fälle können wir mit dem sogenannten logical OR operator "||" (<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR>) abfangen und statt "*null*", wie es derzeit passiert, etwas Sinnvolles hinschreiben. Der veränderte **Template string** der beiden Attribute sieht dann so aus:
+- bevor wir die Flächen stylen, können wir auch noch das Popup der Fußgängerzonen verfeinern, denn es gibt Fußgängerzonen, bei denen die Attribute `feature.properties.ZEITRAUM`und / oder `feature.properties.AUSN_TEXT` leer sind. Diese Fälle können wir mit dem sogenannten logical OR operator "\|\|" (<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR>) abfangen und statt "*null*", wie es derzeit passiert, etwas Sinnvolles hinschreiben. Der veränderte **Template string** der beiden Attribute sieht dann so aus:
 
     ```javascript
     ${feature.properties.ZEITRAUM || "dauerhaft"}           // ersetzt leere Einträge mit "dauerhaft"
